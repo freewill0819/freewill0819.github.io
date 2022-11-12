@@ -1,0 +1,16 @@
+current directory: /Users/kimseonho/Desktop/gitblog/freewill0819.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/opt/homebrew/opt/ruby@3.0/bin/ruby -I /opt/homebrew/Cellar/ruby@3.0/3.0.4_1/lib/ruby/3.0.0 -r ./siteconf20221112-79115-xjh8vt.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kimseonho/Desktop/gitblog/freewill0819.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /Users/kimseonho/Desktop/gitblog/freewill0819.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\=
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/kimseonho/Desktop/gitblog/freewill0819.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20221112-79115-n7o2if

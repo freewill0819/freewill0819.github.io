@@ -1,6 +1,5 @@
 # Site Settings
-#baseurl: "/Grape-Academic-Theme"
-url: "https://freewill0819.github.io/"
+baseurl: "/Grape-Academic-Theme"
 
 # Features Setting
 # Turn subpages on or off
@@ -24,12 +23,12 @@ social:
   name: Christoph Jabs
   links:
     - https://twitter.com/chrjabs
-    - https://github.com/freewill0819
+    - https://github.com/chrjabs
 locale: en_GB
 
 # Page Settings
 theme_settings:
-  title: FreeWill Log
+  title: Grape Academic Theme
 
   experience_title: EXPERIENCE
   interests_title: RESEARCH INTERESTS
@@ -46,7 +45,7 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: ["jekyll-paginate", "jekyll/scholar", "jekyll-seo-tag"]
+plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
 bootstrap:
   assets: true
 
@@ -61,21 +60,7 @@ scholar:
   sort_by: year,month
   order: descending,ascending
 
-filtered_bibtex_keywords: [
-    abbr,
-    abstract,
-    arxiv,
-    bibtex_show,
-    html,
-    pdf,
-    selected,
-    supp,
-    blog,
-    code,
-    poster,
-    slides,
-    website,
-  ] # Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
 academicons:
   version: "1.9.1"
